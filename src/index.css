@@ -1,13 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;400&family=Poppins:wght@300;400;500;700&family=Roboto:wght@700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav-element {
+  text-align: center;
+  background-color: #f55a5a;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 14.46px;
+}
+
+.nav-logo {
+  font-size: 22px;
+}
+
+.container {
+  margin: 3rem 0;
+}
+
+.card {
+  /* width: 470px; */
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-head {
+  margin-right: 3rem;
+}
+
+.cover-img {
+  width: 350px;
+  height: 200px;
+  display: inline;
+  border-radius: 10px;
+}
+
+.location {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.location-detail {
+  display: inline-block;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0 0.6rem 0 0.3rem;
+}
+
+.location-icon {
+  color: #f55a5a;
+}
+
+.location-link {
+  color: #918E9B;
+  font-weight: 300;
+  font-size: 10.24px;
+}
+
+.location-name {
+  display: inline-block;
+  /* font-size: 25px; */
+}
+
+.location-name h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.card-info .date {
+  font-weight: bold;
+}
+
+.card-info .details {
+  font-weight: 300;
+  font-size: 13px;
+}
+
